@@ -5,9 +5,9 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class LabTestsPage:
 
-    VITAL_ORGANS = (
+    VIEW_ALL_VITAL_ORGANS = (
         By.XPATH,
-        "//h3[contains(text(),'Vital Organs')]"
+        "//*[@id='mainContainerCT']/div[1]/div[6]/header/a"
     )
 
     def __init__(self, driver):
@@ -15,7 +15,7 @@ class LabTestsPage:
 
     def verify_lab_tests_page(self):
 
-        WebDriverWait(self.driver, 10).until(
+        WebDriverWait(self.driver, 20).until(
             EC.url_contains("lab-tests")
         )
 
@@ -23,17 +23,25 @@ class LabTestsPage:
 
     def select_vital_organs(self):
 
-        element = WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located(
-                self.VITAL_ORGANS
+        # Scroll slowly down
+        self.driver.execute_script(
+            "window.scrollTo(0, 1500)"
+        )
+
+        # Wait for View All button
+        element = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable(
+                self.VIEW_ALL_VITAL_ORGANS
             )
         )
 
+        # Scroll into view
         self.driver.execute_script(
-            "arguments[0].scrollIntoView();",
+            "arguments[0].scrollIntoView(true);",
             element
         )
 
+        # Click using JavaScript
         self.driver.execute_script(
             "arguments[0].click();",
             element

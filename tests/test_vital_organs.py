@@ -1,4 +1,5 @@
 import pytest
+import os
 
 from utils.driver_factory import DriverFactory
 from utils.excel_reader import ExcelReader
@@ -7,6 +8,8 @@ from pages.home_page import HomePage
 from pages.lab_tests_page import LabTestsPage
 from pages.vital_organs_page import VitalOrgansPage
 
+
+os.makedirs("screenshots", exist_ok=True)
 
 data = ExcelReader.get_test_data(
     "testdata/testdata.xlsx"
@@ -27,38 +30,30 @@ def test_vital_organs(package_name):
 
     try:
 
-        # Open Apollo Pharmacy
         home.open_home_page()
 
-        # Verify homepage
         home.verify_home_page()
 
-        # Navigate to Lab Tests
         home.click_lab_tests()
 
-        # Verify lab tests page
         lab.verify_lab_tests_page()
 
-        # Select Vital Organs
         lab.select_vital_organs()
 
-        # Verify Vital Organs page
         vital.verify_vital_organs_page()
 
-        # Verify package cards
-        vital.verify_packages_displayed()
+        vital.open_thyroid_card()
 
-        print(f"Testing Package: {package_name}")
+        vital.click_add_button()
 
-        # Screenshot
         driver.save_screenshot(
-            f"screenshots/{package_name}.png"
+            f"screenshots/{package_name}_success.png"
         )
 
     except Exception as e:
 
         driver.save_screenshot(
-            f"screenshots/error_{package_name}.png"
+            f"screenshots/{package_name}_failure.png"
         )
 
         print("Test Failed:", e)

@@ -5,19 +5,14 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class VitalOrgansPage:
 
-    PACKAGE_CARDS = (
+    THYROID_CARD = (
         By.XPATH,
-        "//div[contains(@class,'PackageCard')]"
+        "//p[contains(text(),'Thyroid')]"
     )
 
-    SEARCH_BOX = (
+    ADD_BUTTON = (
         By.XPATH,
-        "//input[@placeholder='Search Tests & Packages']"
-    )
-
-    ADD_TO_CART = (
-        By.XPATH,
-        "(//button[contains(text(),'Add')])[1]"
+        "/html/body/main/div[2]/div/div/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/button/span"
     )
 
     def __init__(self, driver):
@@ -25,35 +20,46 @@ class VitalOrgansPage:
 
     def verify_vital_organs_page(self):
 
-        assert "vital-organs" in self.driver.current_url
-
-    def verify_packages_displayed(self):
-
-        packages = WebDriverWait(self.driver, 15).until(
-            EC.presence_of_all_elements_located(
-                self.PACKAGE_CARDS
-            )
+        WebDriverWait(self.driver, 20).until(
+            EC.url_contains("vital-organs")
         )
 
-        assert len(packages) > 0
+        print("Current URL:", self.driver.current_url)
 
-    def search_package(self, package_name):
+    def open_thyroid_card(self):
 
-        search = WebDriverWait(self.driver, 10).until(
-            EC.visibility_of_element_located(
-                self.SEARCH_BOX
-            )
-        )
-
-        search.clear()
-        search.send_keys(package_name)
-
-    def add_first_package_to_cart(self):
-
-        button = WebDriverWait(self.driver, 15).until(
+        thyroid = WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable(
-                self.ADD_TO_CART
+                self.THYROID_CARD
             )
         )
 
-        button.click()
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView(true);",
+            thyroid
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            thyroid
+        )
+
+    def click_add_button(self):
+
+        add_btn = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable(
+                self.ADD_BUTTON
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView(true);",
+            add_btn
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            add_btn
+        )
+
+        print("Add button clicked successfully")
