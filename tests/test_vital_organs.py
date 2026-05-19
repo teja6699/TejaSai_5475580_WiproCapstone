@@ -46,6 +46,10 @@ def test_vital_organs(package_name):
 
         vital.click_add_button()
 
+        vital.click_go_to_cart()
+
+        vital.login_with_mobile()
+
         driver.save_screenshot(
             f"screenshots/{package_name}_success.png"
         )
