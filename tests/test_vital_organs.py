@@ -50,6 +50,8 @@ def test_vital_organs(package_name):
 
         vital.login_with_mobile()
 
+        vital.click_verify_button()
+
         driver.save_screenshot(
             f"screenshots/{package_name}_success.png"
         )

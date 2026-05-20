@@ -32,6 +32,11 @@ class VitalOrgansPage:
         "//button[contains(.,'Continue')]"
     )
 
+    VERIFY_BUTTON = (
+        By.XPATH,
+        "//button[text()='Verify']"
+    )
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -152,3 +157,31 @@ class VitalOrgansPage:
         print("Waiting 30 seconds for manual OTP entry...")
 
         time.sleep(30)
+
+    def click_verify_button(self):
+        print("Waiting for manual OTP entry...")
+
+        # Wait for user to enter OTP manually
+        time.sleep(30)
+
+        verify_btn = WebDriverWait(self.driver, 40).until(
+            EC.presence_of_element_located(
+                self.VERIFY_BUTTON
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView(true);",
+            verify_btn
+        )
+
+        time.sleep(2)
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            verify_btn
+        )
+
+        print("Verify button clicked successfully")
+
+        time.sleep(10)
