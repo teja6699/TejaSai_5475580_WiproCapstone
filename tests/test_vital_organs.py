@@ -52,6 +52,22 @@ def test_vital_organs(package_name):
 
         vital.click_verify_button()
 
+        vital.click_go_to_cart()
+
+        vital.select_patient_checkbox()
+
+        vital.click_select_slot_button()
+
+        vital.click_review_cart_button()
+
+        vital.click_proceed_to_pay()
+
+        vital.click_credit_debit_card_section()
+
+        vital.enter_card_details()
+
+        vital.click_pay_button()
+
         driver.save_screenshot(
             f"screenshots/{package_name}_success.png"
         )
