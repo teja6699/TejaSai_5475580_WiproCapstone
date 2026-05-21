@@ -1,0 +1,64 @@
+05/21/2026 11:04:48 AM : INFO : ========== Navigation Test Started ==========
+05/21/2026 11:04:51 AM : INFO : Opening Home Page
+05/21/2026 11:04:55 AM : INFO : Home Page Verified
+05/21/2026 11:05:06 AM : INFO : Lab Tests Clicked
+05/21/2026 11:05:13 AM : INFO : Lab Tests Page Verified
+05/21/2026 11:05:13 AM : INFO : ========== Navigation Test Passed ==========
+05/21/2026 11:05:16 AM : INFO : Browser Closed
+05/21/2026 11:05:16 AM : INFO : ========== Navigation Test Ended ==========
+05/21/2026 11:05:49 AM : INFO : ========== TEST STARTED ==========
+05/21/2026 11:05:51 AM : INFO : Opening Home Page
+05/21/2026 11:05:53 AM : INFO : Home Page Verified
+05/21/2026 11:06:03 AM : INFO : Lab Tests Clicked
+05/21/2026 11:06:10 AM : INFO : Lab Tests Page Verified
+05/21/2026 11:06:11 AM : INFO : Vital Organs Selected
+05/21/2026 11:06:12 AM : INFO : Vital Organs Page Verified
+05/21/2026 11:06:12 AM : INFO : Thyroid Card Opened
+05/21/2026 11:06:14 AM : INFO : Add Button Clicked
+05/21/2026 11:06:24 AM : INFO : Go To Cart Clicked
+05/21/2026 11:07:07 AM : INFO : Mobile Number Entered
+05/21/2026 11:07:49 AM : INFO : OTP Verified
+05/21/2026 11:07:59 AM : INFO : Go To Cart Clicked Again
+05/21/2026 11:08:07 AM : INFO : Patient Checkbox Selected
+05/21/2026 11:08:19 AM : INFO : Select Slot Clicked
+05/21/2026 11:08:40 AM : INFO : Review Cart Clicked
+05/21/2026 11:08:52 AM : INFO : Proceed To Pay Clicked
+05/21/2026 11:08:59 AM : INFO : Credit/Debit Card Section Clicked
+05/21/2026 11:11:40 AM : INFO : Card Details Entered
+05/21/2026 11:12:02 AM : INFO : Pay Button Clicked
+05/21/2026 11:12:03 AM : INFO : Success Screenshot Saved: screenshots/Thyroid_success.png
+05/21/2026 11:12:03 AM : INFO : ========== TEST PASSED ==========
+05/21/2026 11:12:03 AM : INFO : Closing Browser
+05/21/2026 11:12:05 AM : INFO : ========== TEST ENDED ==========
+05/21/2026 11:18:08 AM : INFO : ========== Navigation Test Started ==========
+05/21/2026 11:18:11 AM : INFO : Opening Home Page
+05/21/2026 11:18:15 AM : INFO : Home Page Verified
+05/21/2026 11:18:26 AM : INFO : Lab Tests Clicked
+05/21/2026 11:18:37 AM : INFO : Lab Tests Page Verified
+05/21/2026 11:18:37 AM : INFO : ========== Navigation Test Passed ==========
+05/21/2026 11:18:40 AM : INFO : Browser Closed
+05/21/2026 11:18:40 AM : INFO : ========== Navigation Test Ended ==========
+05/21/2026 11:37:12 AM : INFO : ========== TEST STARTED ==========
+05/21/2026 11:37:14 AM : INFO : Opening Home Page
+05/21/2026 11:37:15 AM : INFO : Home Page Verified
+05/21/2026 11:37:25 AM : INFO : Lab Tests Clicked
+05/21/2026 11:37:27 AM : INFO : Lab Tests Page Verified
+05/21/2026 11:37:29 AM : INFO : Vital Organs Selected
+05/21/2026 11:37:29 AM : INFO : Vital Organs Page Verified
+05/21/2026 11:37:29 AM : INFO : Thyroid Card Opened
+05/21/2026 11:37:30 AM : INFO : Add Button Clicked
+05/21/2026 11:37:40 AM : INFO : Go To Cart Clicked
+05/21/2026 11:38:24 AM : INFO : Mobile Number Entered
+05/21/2026 11:39:06 AM : INFO : OTP Verified
+05/21/2026 11:39:16 AM : INFO : Go To Cart Clicked Again
+05/21/2026 11:39:23 AM : INFO : Patient Checkbox Selected
+05/21/2026 11:39:30 AM : INFO : Select Slot Clicked
+05/21/2026 11:39:51 AM : INFO : Review Cart Clicked
+05/21/2026 11:40:03 AM : INFO : Proceed To Pay Clicked
+05/21/2026 11:40:10 AM : INFO : Credit/Debit Card Section Clicked
+05/21/2026 11:42:41 AM : INFO : Card Details Entered
+05/21/2026 11:42:53 AM : INFO : Pay Button Clicked
+05/21/2026 11:42:53 AM : INFO : Success Screenshot Saved: screenshots/Thyroid_success.png
+05/21/2026 11:42:53 AM : INFO : ========== TEST PASSED ==========
+05/21/2026 11:42:53 AM : INFO : Closing Browser
+05/21/2026 11:42:59 AM : INFO : ========== TEST ENDED ==========

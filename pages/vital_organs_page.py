@@ -161,12 +161,12 @@ class VitalOrgansPage:
 
         time.sleep(5)
 
-    def login_with_mobile(self):
+    def login_with_mobile(self,mobile_number):
         print("Waiting for login popup...")
 
         time.sleep(5)
 
-        phone_input = WebDriverWait(self.driver, 40).until(
+        phone_input = WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located(
                 self.PHONE_INPUT
             )
@@ -176,14 +176,16 @@ class VitalOrgansPage:
 
         phone_input.clear()
 
-        phone_input.send_keys("9381866215")
+        phone_input.send_keys(
+            str(mobile_number)
+        )
 
         print("Mobile number entered successfully")
 
         # Wait for button enable
         time.sleep(5)
 
-        continue_btn = WebDriverWait(self.driver, 40).until(
+        continue_btn = WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located(
                 self.CONTINUE_BUTTON
             )
@@ -214,7 +216,7 @@ class VitalOrgansPage:
         # Wait for user to enter OTP manually
         time.sleep(30)
 
-        verify_btn = WebDriverWait(self.driver, 40).until(
+        verify_btn = WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located(
                 self.VERIFY_BUTTON
             )
@@ -239,7 +241,7 @@ class VitalOrgansPage:
     def select_patient_checkbox(self):
         print("Waiting for patient checkbox...")
 
-        checkbox = WebDriverWait(self.driver, 40).until(
+        checkbox = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(
                 self.PATIENT_CHECKBOX
             )
@@ -267,7 +269,7 @@ class VitalOrgansPage:
     def click_select_slot_button(self):
         print("Waiting for Select Slot popup...")
 
-        select_slot_btn = WebDriverWait(self.driver, 40).until(
+        select_slot_btn = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(
                 self.SELECT_SLOT_BUTTON
             )
@@ -287,7 +289,7 @@ class VitalOrgansPage:
 
         print("Select Slot button clicked successfully")
 
-        time.sleep(10)
+        time.sleep(5)
 
     def click_review_cart_button(self):
         print("Waiting for Review Cart button...")
@@ -295,7 +297,7 @@ class VitalOrgansPage:
         # Wait for Apollo React rendering
         time.sleep(8)
 
-        review_cart_btn = WebDriverWait(self.driver, 60).until(
+        review_cart_btn = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable(
                 self.REVIEW_CART_BUTTON
             )
@@ -321,7 +323,7 @@ class VitalOrgansPage:
     def click_proceed_to_pay(self):
         print("Waiting for Proceed To Pay button...")
 
-        proceed_btn = WebDriverWait(self.driver, 60).until(
+        proceed_btn = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable(
                 self.PROCEED_TO_PAY_BUTTON
             )
@@ -341,12 +343,12 @@ class VitalOrgansPage:
 
         print("Proceed To Pay button clicked successfully")
 
-        time.sleep(10)
+        time.sleep(5)
 
     def click_credit_debit_card_section(self):
         print("Waiting for Credit/Debit Card section...")
 
-        card_section = WebDriverWait(self.driver, 60).until(
+        card_section = WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable(
                 self.CREDIT_DEBIT_CARD_SECTION
             )
@@ -366,13 +368,13 @@ class VitalOrgansPage:
 
         print("Credit/Debit Card section clicked")
 
-        time.sleep(5)
+        time.sleep(3)
 
-    def enter_card_details(self):
+    def enter_card_details(self, card_name, card_number,expiry_date,cvv):
 
         print("Waiting for payment iframes...")
 
-        time.sleep(10)
+        time.sleep(5)
 
         iframes = self.driver.find_elements(By.TAG_NAME, "iframe")
 
@@ -402,7 +404,9 @@ class VitalOrgansPage:
 
                     name_field.clear()
 
-                    name_field.send_keys("Teja Sai")
+                    name_field.send_keys(
+                        str(card_name)
+                    )
 
                     print("Entered Name")
 
@@ -434,7 +438,7 @@ class VitalOrgansPage:
                     card_field = fields[0]
 
                     card_field.send_keys(
-                        "4111111111111111"
+                        str(card_number)
                     )
 
                     print("Entered Card Number")
@@ -470,10 +474,7 @@ class VitalOrgansPage:
 
                     time.sleep(2)
 
-                    expiry_field.send_keys("1")
-                    expiry_field.send_keys("2")
-                    expiry_field.send_keys("3")
-                    expiry_field.send_keys("0")
+                    str(expiry_date)
 
                     print("Entered Expiry")
 
@@ -506,7 +507,7 @@ class VitalOrgansPage:
 
                     cvv_field = fields[0]
 
-                    cvv_field.send_keys("123")
+                    cvv_field.send_keys(str(cvv))
 
                     print("Entered CVV")
 
@@ -519,11 +520,11 @@ class VitalOrgansPage:
 
         print("Card details entered successfully")
 
-        time.sleep(10)
+        time.sleep(5)
 
 
     def click_pay_button(self):
-        pay_btn = WebDriverWait(self.driver, 60).until(
+        pay_btn = WebDriverWait(self.driver, 5).until(
             EC.element_to_be_clickable(
                 self.PAY_BUTTON
             )
@@ -543,4 +544,4 @@ class VitalOrgansPage:
 
         print("Pay button clicked successfully")
 
-        time.sleep(20)
+        time.sleep(5)
