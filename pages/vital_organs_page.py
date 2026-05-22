@@ -520,11 +520,11 @@ class VitalOrgansPage:
 
         print("Card details entered successfully")
 
-        time.sleep(5)
+        time.sleep(3)
 
 
     def click_pay_button(self):
-        pay_btn = WebDriverWait(self.driver, 5).until(
+        pay_btn = WebDriverWait(self.driver, 3).until(
             EC.element_to_be_clickable(
                 self.PAY_BUTTON
             )
@@ -544,4 +544,4 @@ class VitalOrgansPage:
 
         print("Pay button clicked successfully")
 
-        time.sleep(5)
+        time.sleep(3)
