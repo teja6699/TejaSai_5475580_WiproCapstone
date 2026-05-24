@@ -1,0 +1,258 @@
+05/22/2026 09:52:52 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/22/2026 09:53:10 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/22/2026 09:53:14 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/22/2026 09:53:31 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/22/2026 09:53:35 PM : INFO : Scenario Started: Valid Mobile Login
+05/22/2026 09:53:50 PM : INFO : Scenario Ended: Valid Mobile Login
+05/22/2026 09:53:53 PM : INFO : Scenario Started: Successful Slot Selection
+05/22/2026 09:53:56 PM : INFO : Scenario Ended: Successful Slot Selection
+05/22/2026 09:55:35 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/22/2026 09:55:51 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/22/2026 09:55:54 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/22/2026 09:56:12 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/22/2026 09:56:15 PM : INFO : Scenario Started: Valid Mobile Login
+05/22/2026 09:56:29 PM : INFO : Scenario Ended: Valid Mobile Login
+05/22/2026 09:56:32 PM : INFO : Scenario Started: Successful Slot Selection
+05/22/2026 09:56:35 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 08:59:30 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 08:59:39 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:09:04 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:09:21 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:13:05 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:13:08 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:15:45 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:16:15 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:16:32 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:17:35 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:32:44 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:32:47 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:45:04 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:45:07 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 09:45:44 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 09:46:47 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:17:27 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:17:30 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:18:11 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:22:41 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:32:08 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:32:11 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:32:21 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:34:37 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:34:46 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:34:50 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:37:18 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:37:21 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 10:37:42 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 10:39:41 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 11:25:44 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 11:27:30 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 11:48:05 AM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 11:52:38 AM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 12:35:36 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 12:40:03 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 12:40:06 PM : INFO : Scenario Started: Invalid Mobile Number
+05/23/2026 12:40:10 PM : INFO : Scenario Ended: Invalid Mobile Number
+05/23/2026 12:40:13 PM : INFO : Scenario Started: Invalid Card Details
+05/23/2026 12:40:15 PM : INFO : Scenario Ended: Invalid Card Details
+05/23/2026 12:40:18 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/23/2026 12:40:22 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/23/2026 12:40:25 PM : INFO : Scenario Started: Valid Mobile Login
+05/23/2026 12:40:32 PM : INFO : Scenario Ended: Valid Mobile Login
+05/23/2026 12:40:35 PM : INFO : Scenario Started: Successful Slot Selection
+05/23/2026 12:40:37 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 12:46:32 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 12:51:02 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 03:30:38 PM : INFO : ========= Test Execution Started =========
+05/23/2026 03:30:43 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 03:30:50 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:30:56 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:30:56 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:31:04 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 03:31:09 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 03:31:17 PM : INFO : Step Executed: user clicks go to cart | Status: Status.passed
+05/23/2026 03:31:21 PM : INFO : Step Executed: user logs in with valid mobile number | Status: Status.passed
+05/23/2026 03:31:51 PM : INFO : Step Executed: user verifies OTP manually | Status: Status.passed
+05/23/2026 03:32:00 PM : INFO : Step Executed: user clicks go to cart again | Status: Status.passed
+05/23/2026 03:32:07 PM : INFO : Step Executed: user selects patient checkbox | Status: Status.passed
+05/23/2026 03:32:15 PM : INFO : Step Executed: user selects slot | Status: Status.passed
+05/23/2026 03:32:23 PM : INFO : Step Executed: user reviews cart | Status: Status.passed
+05/23/2026 03:32:30 PM : INFO : Step Executed: user proceeds to payment | Status: Status.passed
+05/23/2026 03:32:38 PM : INFO : Step Executed: user selects credit debit card | Status: Status.passed
+05/23/2026 03:35:09 PM : INFO : Step Executed: user enters card details | Status: Status.passed
+05/23/2026 03:35:17 PM : INFO : Step Executed: payment flow should complete successfully | Status: Status.passed
+05/23/2026 03:35:17 PM : INFO : Scenario Passed: Complete Lab Test Booking
+05/23/2026 03:35:20 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 03:35:20 PM : INFO : ========= Test Execution Completed =========
+05/23/2026 03:39:50 PM : INFO : ========= Test Execution Started =========
+05/23/2026 03:39:53 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 03:39:58 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:40:03 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:40:03 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:40:11 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 03:40:16 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 03:40:24 PM : INFO : Step Executed: user clicks go to cart | Status: Status.passed
+05/23/2026 03:40:28 PM : INFO : Step Executed: user logs in with valid mobile number | Status: Status.passed
+05/23/2026 03:40:58 PM : INFO : Step Executed: user verifies OTP manually | Status: Status.passed
+05/23/2026 03:41:07 PM : INFO : Step Executed: user clicks go to cart again | Status: Status.passed
+05/23/2026 03:41:14 PM : INFO : Step Executed: user selects patient checkbox | Status: Status.passed
+05/23/2026 03:41:21 PM : INFO : Step Executed: user selects slot | Status: Status.passed
+05/23/2026 03:41:34 PM : INFO : Step Executed: user reviews cart | Status: Status.passed
+05/23/2026 03:41:42 PM : INFO : Step Executed: user proceeds to payment | Status: Status.passed
+05/23/2026 03:41:50 PM : INFO : Step Executed: user selects credit debit card | Status: Status.passed
+05/23/2026 03:44:21 PM : INFO : Step Executed: user enters card details | Status: Status.passed
+05/23/2026 03:44:29 PM : INFO : Step Executed: payment flow should complete successfully | Status: Status.passed
+05/23/2026 03:44:29 PM : INFO : Scenario Passed: Complete Lab Test Booking
+05/23/2026 03:44:32 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 03:44:35 PM : INFO : Scenario Started: Invalid Mobile Number
+05/23/2026 03:44:36 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:44:36 PM : INFO : Step Executed: user enters invalid mobile number | Status: Status.passed
+05/23/2026 03:44:37 PM : INFO : Step Executed: error message should display | Status: Status.passed
+05/23/2026 03:44:37 PM : INFO : Scenario Passed: Invalid Mobile Number
+05/23/2026 03:44:39 PM : INFO : Scenario Ended: Invalid Mobile Number
+05/23/2026 03:44:41 PM : INFO : Scenario Started: Invalid Card Details
+05/23/2026 03:44:41 PM : INFO : Scenario Passed: Invalid Card Details
+05/23/2026 03:44:44 PM : INFO : Scenario Ended: Invalid Card Details
+05/23/2026 03:44:46 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/23/2026 03:44:50 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:44:54 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:44:54 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:45:02 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 03:45:07 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 03:45:07 PM : INFO : Step Executed: package should be added successfully | Status: Status.passed
+05/23/2026 03:45:07 PM : INFO : Scenario Passed: Valid Thyroid Test Booking
+05/23/2026 03:45:10 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/23/2026 03:45:12 PM : INFO : Scenario Started: Valid Mobile Login
+05/23/2026 03:45:13 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:45:22 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:45:22 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:45:22 PM : INFO : Scenario Passed: Valid Mobile Login
+05/23/2026 03:45:24 PM : INFO : Scenario Ended: Valid Mobile Login
+05/23/2026 03:45:26 PM : INFO : Scenario Started: Successful Slot Selection
+05/23/2026 03:45:26 PM : INFO : Scenario Passed: Successful Slot Selection
+05/23/2026 03:45:29 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 03:45:29 PM : INFO : ========= Test Execution Completed =========
+05/23/2026 03:47:48 PM : INFO : ========= Test Execution Started =========
+05/23/2026 03:47:52 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 03:47:52 PM : INFO : Scenario Passed: Complete Lab Test Booking
+05/23/2026 03:47:54 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 03:47:56 PM : INFO : Scenario Started: Invalid Mobile Number
+05/23/2026 03:47:56 PM : INFO : Scenario Passed: Invalid Mobile Number
+05/23/2026 03:47:59 PM : INFO : Scenario Ended: Invalid Mobile Number
+05/23/2026 03:48:01 PM : INFO : Scenario Started: Invalid Card Details
+05/23/2026 03:48:03 PM : INFO : Step Executed: user reaches payment page | Status: Status.error
+05/23/2026 03:48:03 PM : INFO : Scenario Passed: Invalid Card Details
+05/23/2026 03:48:06 PM : INFO : Scenario Ended: Invalid Card Details
+05/23/2026 03:48:08 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/23/2026 03:48:08 PM : INFO : Scenario Passed: Valid Thyroid Test Booking
+05/23/2026 03:48:10 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/23/2026 03:48:12 PM : INFO : Scenario Started: Valid Mobile Login
+05/23/2026 03:48:12 PM : INFO : Scenario Passed: Valid Mobile Login
+05/23/2026 03:48:15 PM : INFO : Scenario Ended: Valid Mobile Login
+05/23/2026 03:48:17 PM : INFO : Scenario Started: Successful Slot Selection
+05/23/2026 03:48:19 PM : INFO : Step Executed: user logged into application | Status: Status.error
+05/23/2026 03:48:19 PM : INFO : Scenario Passed: Successful Slot Selection
+05/23/2026 03:48:21 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 03:48:21 PM : INFO : ========= Test Execution Completed =========
+05/23/2026 03:51:38 PM : INFO : ========= Test Execution Started =========
+05/23/2026 03:51:42 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 03:51:44 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:51:50 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:51:50 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:51:58 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 03:52:03 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 03:52:12 PM : INFO : Step Executed: user clicks go to cart | Status: Status.passed
+05/23/2026 03:52:15 PM : INFO : Step Executed: user logs in with valid mobile number | Status: Status.passed
+05/23/2026 03:52:46 PM : INFO : Step Executed: user verifies OTP manually | Status: Status.passed
+05/23/2026 03:52:54 PM : INFO : Step Executed: user clicks go to cart again | Status: Status.passed
+05/23/2026 03:53:01 PM : INFO : Step Executed: user selects patient checkbox | Status: Status.passed
+05/23/2026 03:53:09 PM : INFO : Step Executed: user selects slot | Status: Status.passed
+05/23/2026 03:53:17 PM : INFO : Step Executed: user reviews cart | Status: Status.passed
+05/23/2026 03:53:24 PM : INFO : Step Executed: user proceeds to payment | Status: Status.passed
+05/23/2026 03:53:33 PM : INFO : Step Executed: user selects credit debit card | Status: Status.passed
+05/23/2026 03:56:05 PM : INFO : Step Executed: user enters card details | Status: Status.passed
+05/23/2026 03:56:12 PM : INFO : Step Executed: payment flow should complete successfully | Status: Status.passed
+05/23/2026 03:56:12 PM : INFO : Scenario Passed: Complete Lab Test Booking
+05/23/2026 03:56:16 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 03:56:19 PM : INFO : Scenario Started: Invalid Mobile Number
+05/23/2026 03:56:25 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:56:25 PM : INFO : Step Executed: user enters invalid mobile number | Status: Status.passed
+05/23/2026 03:56:25 PM : INFO : Step Executed: error message should display | Status: Status.passed
+05/23/2026 03:56:25 PM : INFO : Scenario Passed: Invalid Mobile Number
+05/23/2026 03:56:27 PM : INFO : Scenario Ended: Invalid Mobile Number
+05/23/2026 03:56:30 PM : INFO : Scenario Started: Invalid Card Details
+05/23/2026 03:58:03 PM : INFO : Step Executed: user reaches payment page | Status: Status.passed
+05/23/2026 03:58:03 PM : INFO : Step Executed: user enters invalid card details | Status: Status.passed
+05/23/2026 03:58:03 PM : INFO : Step Executed: payment should fail | Status: Status.passed
+05/23/2026 03:58:03 PM : INFO : Scenario Passed: Invalid Card Details
+05/23/2026 03:58:06 PM : INFO : Scenario Ended: Invalid Card Details
+05/23/2026 03:58:09 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/23/2026 03:58:14 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:58:28 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:58:28 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:58:35 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 03:58:41 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 03:58:41 PM : INFO : Step Executed: package should be added successfully | Status: Status.passed
+05/23/2026 03:58:41 PM : INFO : Scenario Passed: Valid Thyroid Test Booking
+05/23/2026 03:58:44 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/23/2026 03:58:46 PM : INFO : Scenario Started: Valid Mobile Login
+05/23/2026 03:58:48 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 03:58:54 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 03:58:54 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 03:58:54 PM : INFO : Scenario Passed: Valid Mobile Login
+05/23/2026 03:58:57 PM : INFO : Scenario Ended: Valid Mobile Login
+05/23/2026 03:59:00 PM : INFO : Scenario Started: Successful Slot Selection
+05/23/2026 03:59:27 PM : INFO : Step Executed: user logged into application | Status: Status.error
+05/23/2026 03:59:27 PM : INFO : Scenario Passed: Successful Slot Selection
+05/23/2026 03:59:30 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 03:59:30 PM : INFO : ========= Test Execution Completed =========
+05/23/2026 04:02:07 PM : INFO : ========= Test Execution Started =========
+05/23/2026 04:02:12 PM : INFO : Scenario Started: Complete Lab Test Booking
+05/23/2026 04:02:16 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 04:02:20 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 04:02:21 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 04:02:28 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 04:02:33 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 04:02:42 PM : INFO : Step Executed: user clicks go to cart | Status: Status.passed
+05/23/2026 04:02:46 PM : INFO : Step Executed: user logs in with valid mobile number | Status: Status.passed
+05/23/2026 04:03:16 PM : INFO : Step Executed: user verifies OTP manually | Status: Status.passed
+05/23/2026 04:03:24 PM : INFO : Step Executed: user clicks go to cart again | Status: Status.passed
+05/23/2026 04:03:32 PM : INFO : Step Executed: user selects patient checkbox | Status: Status.passed
+05/23/2026 04:03:39 PM : INFO : Step Executed: user selects slot | Status: Status.passed
+05/23/2026 04:03:48 PM : INFO : Step Executed: user reviews cart | Status: Status.passed
+05/23/2026 04:03:56 PM : INFO : Step Executed: user proceeds to payment | Status: Status.passed
+05/23/2026 04:04:28 PM : INFO : Step Executed: user selects credit debit card | Status: Status.passed
+05/23/2026 04:06:59 PM : INFO : Step Executed: user enters card details | Status: Status.passed
+05/23/2026 04:07:07 PM : INFO : Step Executed: payment flow should complete successfully | Status: Status.passed
+05/23/2026 04:07:07 PM : INFO : Scenario Passed: Complete Lab Test Booking
+05/23/2026 04:07:11 PM : INFO : Scenario Ended: Complete Lab Test Booking
+05/23/2026 04:07:13 PM : INFO : Scenario Started: Invalid Mobile Number
+05/23/2026 04:07:20 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 04:07:20 PM : INFO : Step Executed: user enters invalid mobile number | Status: Status.passed
+05/23/2026 04:07:21 PM : INFO : Step Executed: error message should display | Status: Status.passed
+05/23/2026 04:07:21 PM : INFO : Scenario Passed: Invalid Mobile Number
+05/23/2026 04:07:23 PM : INFO : Scenario Ended: Invalid Mobile Number
+05/23/2026 04:07:26 PM : INFO : Scenario Started: Invalid Card Details
+05/23/2026 04:09:10 PM : INFO : Step Executed: user reaches payment page | Status: Status.error
+05/23/2026 04:09:10 PM : INFO : Scenario Passed: Invalid Card Details
+05/23/2026 04:09:13 PM : INFO : Scenario Ended: Invalid Card Details
+05/23/2026 04:09:15 PM : INFO : Scenario Started: Valid Thyroid Test Booking
+05/23/2026 04:09:17 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 04:09:21 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 04:09:22 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 04:09:29 PM : INFO : Step Executed: user opens thyroid card | Status: Status.passed
+05/23/2026 04:09:34 PM : INFO : Step Executed: user adds thyroid package | Status: Status.passed
+05/23/2026 04:09:34 PM : INFO : Step Executed: package should be added successfully | Status: Status.passed
+05/23/2026 04:09:34 PM : INFO : Scenario Passed: Valid Thyroid Test Booking
+05/23/2026 04:09:37 PM : INFO : Scenario Ended: Valid Thyroid Test Booking
+05/23/2026 04:09:39 PM : INFO : Scenario Started: Valid Mobile Login
+05/23/2026 04:09:40 PM : INFO : Step Executed: user launches Apollo application | Status: Status.passed
+05/23/2026 04:09:46 PM : INFO : Step Executed: user navigates to lab tests | Status: Status.passed
+05/23/2026 04:09:46 PM : INFO : Step Executed: user selects vital organs | Status: Status.passed
+05/23/2026 04:09:46 PM : INFO : Step Executed: user adds package to cart | Status: Status.error
+05/23/2026 04:09:46 PM : INFO : Scenario Passed: Valid Mobile Login
+05/23/2026 04:09:49 PM : INFO : Scenario Ended: Valid Mobile Login
+05/23/2026 04:09:51 PM : INFO : Scenario Started: Successful Slot Selection
+05/23/2026 04:11:32 PM : INFO : Step Executed: user logged into application | Status: Status.error
+05/23/2026 04:11:32 PM : INFO : Scenario Passed: Successful Slot Selection
+05/23/2026 04:11:35 PM : INFO : Scenario Ended: Successful Slot Selection
+05/23/2026 04:11:35 PM : INFO : ========= Test Execution Completed =========

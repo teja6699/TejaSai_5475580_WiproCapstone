@@ -1,0 +1,7 @@
+selenium
+behave
+allure-behave
+webdriver-manager
+pandas
+openpyxl
+pytest
